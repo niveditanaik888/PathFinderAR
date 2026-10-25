@@ -1,0 +1,1 @@
+DROP TABLE `campus_3d_models`;

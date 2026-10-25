@@ -1,0 +1,26 @@
+# Project TODO
+
+- [x] Establish the PathFinder Smart Campus design system, responsive navigation shell, and application route structure.
+- [x] Create the public landing, about, how-it-works, help, login, and registration-oriented entry experiences.
+- [x] Implement authenticated user dashboard, profile, settings, navigation history, and role-aware access controls using the provided authentication system.
+- [x] Add a destination discovery experience with debounced search, category/building/floor filters, live suggestions, recent destinations, and distance-aware navigation actions.
+- [x] Build an interactive Leaflet-powered campus map with building markers, node/waypoint markers, user location/heading indicator, destination marker, routing polyline, locate action, and responsive controls.
+- [x] Implement browser geolocation tracking using navigator.geolocation.watchPosition with permission, unsupported-browser, timeout, unavailable-position, low-accuracy, and accuracy-display handling.
+- [x] Implement device-orientation handling, iOS permission flow, heading updates, and map-first fallbacks.
+- [x] Implement a browser AR guidance screen with secure camera permissions, a bearing-driven directional overlay based on targetBearing − deviceHeading, waypoint/destination cues, progress, and graceful AR fallback.
+- [x] Implement configurable graph routing constants including SMALL_GRAPH_NODE_THRESHOLD and DEVIATION_THRESHOLD_METERS (default 20 m).
+- [x] Implement Dijkstra and A* shortest-path algorithms with priority queues, blocked/accessibility edge handling, auto selection, route statistics, route instruction generation, Haversine distance, and walking-time calculation.
+- [x] Expose the routing calculation through the exact POST /api/routes/calculate compatibility endpoint and typed internal application procedures.
+- [x] Implement route deviation detection, cooldown-protected rerouting, exact off-route notification copy, and completed/stopped navigation-session logging.
+- [x] Create the MySQL schema for buildings, floors, destinations, graph nodes/edges, routes, route waypoints, navigation history, route deviations, and blocked paths with required foreign keys.
+- [x] Seed PathFinder Smart Campus with three buildings, two floors per building, at least 20 graph nodes, at least 30 graph edges, and at least 15 destinations isolated as replaceable demo campus data.
+- [x] Build administrator analytics with database-driven statistics cards and charts for navigation counts, destination demand, route outcome, algorithm usage, and deviations.
+- [x] Build campus administration tools for destination management, graph-node and graph-edge CRUD, edge blocking/unblocking, map inspection, building/floor data, and history viewing.
+- [x] Add unit tests for routing, instruction generation, automatic algorithm selection, and route-deviation rules; run type checks and test suite.
+- [x] Document architecture, configuration, local setup, demo credentials/roles, browser permissions, HTTPS requirements, WebAR limitations, API contract, database schema, and replacing the sample campus dataset.
+- [x] Validate desktop and mobile layouts with visual checks, save a release checkpoint, and package the complete runnable project.
+- [x] Rebrand all user-visible PathFinder Smart Campus naming and demo-campus labels as AIET PathFinder and Alva’s Institute of Engineering and Technology.
+- [x] Upload and integrate the supplied Alva’s Education Foundation logo in the navigation, landing identity, and route context without embedding local assets in the project.
+- [x] Redesign destination selection and active navigation so users clearly choose a source and destination, see route status, distance, walking estimate, steps, and alternate route context.
+- [x] Apply a cohesive responsive 3D luminous campus interface with depth, glittering accents, motion-safe interactions, and readable accessibility-aware contrasts.
+- [x] Revalidate the redesigned desktop/mobile interface, rerun automated checks, and save an updated release checkpoint.

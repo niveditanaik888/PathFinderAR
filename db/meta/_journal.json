@@ -1,0 +1,83 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1786641663631,
+      "tag": "0000_charming_princess_powerful",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1786642183678,
+      "tag": "0001_flat_revanche",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1787235950514,
+      "tag": "0002_dapper_toro",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1787237755011,
+      "tag": "0003_smiling_bulldozer",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1787239761339,
+      "tag": "0004_goofy_lord_hawal",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1787330659705,
+      "tag": "0005_unique_power_pack",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1787333936103,
+      "tag": "0006_marvelous_menace",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1787400269854,
+      "tag": "0007_previous_warpath",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1787401042982,
+      "tag": "0008_illegal_pandemic",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1791562307182,
+      "tag": "0009_mushy_doctor_doom",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1792057463129,
+      "tag": "0010_wealthy_gunslinger",
+      "breakpoints": true
+    }
+  ]
+}
